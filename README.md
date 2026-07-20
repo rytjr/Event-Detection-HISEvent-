@@ -36,7 +36,7 @@ The figures below compare the political score distribution of participants in re
 <b>Event 7</b>
 </td>
 <td align="center">
-<img src="images/even21.png" width="260"><br>
+<img src="images/event21.png" width="260"><br>
 <b>Event 8</b>
 </td>
 </tr>
