@@ -1,3 +1,15 @@
+# Event Detection using HISEvent
+
+This repository provides the implementation and experimental results for detecting political events from YouTube comments using the **HISEvent** framework. The project identifies political events from large-scale social media interactions and analyzes the political orientation of event participants by estimating user-level political scores from comment embeddings.
+
+The proposed framework consists of three main stages:
+
+- **Political Orientation Estimation:** Estimate user political scores from comment embeddings using ideology anchor representations.
+- **Political Event Detection:** Detect political events from user interaction graphs with the HISEvent algorithm.
+- **Event Participation Analysis:** Compare the political score distributions of event participants with that of the overall population using statistical tests and effect size analysis.
+
+The repository contains the implementation of the proposed framework together with representative visualization results of detected political events.
+
 ## Event Distribution Examples
 
 The figures below compare the political score distribution of participants in representative political events with that of the overall user population. The gray histogram represents the overall population, while the colored histogram represents participants in a specific event. Both distributions are peak-normalized to facilitate comparison of their shapes rather than their absolute frequencies. Vertical dashed lines indicate the mean political scores of the overall population and the event participants.
